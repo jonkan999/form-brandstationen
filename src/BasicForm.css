@@ -76,7 +76,13 @@
     .main-div{
       padding: 2vh 20vw;
       text-Align: center;
-      font-Size: 2vh;
+      font-Size: 3vh;
+    }
+    h1 {
+
+      font-size: 3vh;
+      font-weight: 530;
+  
     }
     .form-label {
       font-Size: 2.5vh;
