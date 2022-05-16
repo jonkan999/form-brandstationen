@@ -1,0 +1,94 @@
+  .main-div{
+    padding: 2vh 5vw;
+    text-Align: center;
+    font-Size: 1.2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .form-label {
+    font-Size: 2vh;
+  }
+  .form-field {
+    height: 5vh;
+    width: 50vw;
+    text-Align: center;
+    font-Size: 2vh;
+  }
+
+
+  
+  .submit-button{
+    margin: auto;
+    
+    margin-top: 3vw;
+    width: 50vw;
+    height: 8vh;
+    background-color: lightgrey;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-size: 4vh;
+    font-family: DINOT-Light Regular;
+  
+  }
+  .formpic{
+    display: block;
+    transform: translateZ(0) scale(0.999999);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Instagram 
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }*/
+ 
+   /* condition for screen size minimum of 500px */
+  @media (min-width:839px) {
+
+    /* your conditional / responsive CSS inside this condition */
+    .main-div{
+      padding: 2vh 20vw;
+      text-Align: center;
+      font-Size: 2vh;
+    }
+    .form-label {
+      font-Size: 2.5vh;
+    }
+
+    .form-field {
+      height: 5vh;
+      width: 35vw;
+      text-Align: center;
+      font-Size: 2.5vh;
+    }
+
+    .submit-button {  
+      width: 200vw;
+      height: 8vh;
+      font-Size: 4vh;
+      }
+    .formpic {  
+      width: 60%;
+      height: 60%; }
+    }
