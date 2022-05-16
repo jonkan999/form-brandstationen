@@ -1,5 +1,5 @@
 .main-div{
-    padding: 2vh 5vw;
+    padding: 0.5vh 5vw;
     text-Align: center;
     font-Size: 1.2vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -16,6 +16,7 @@
     transform: translateZ(0) scale(0.999999);
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0em;
     width: 100%;
     height: 100%;
   }
